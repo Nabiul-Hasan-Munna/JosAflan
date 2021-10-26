@@ -1,0 +1,255 @@
+/* 
+------------------
+Template Name: Jos Aflan Personal Portfolio HTML Template
+Author: illuminetheme
+Author Email: nabiulhasan.007@gmail.com
+Version: Dark Version
+----------------
+
+----------------
+Table of Content
+----------------
+1.HOME SECTION
+2.ABOUT SECTION
+3.PRICING SECTION
+4.SKILLS SECTION
+5.PORTFOLIO SECTION
+6.CLIENTS SECTION
+7.BLOG SECTION
+8.CONTACT SECTION
+
+*/
+/* start common css */
+.ColorSwitcher {
+    box-shadow: 2px 11px 21px rgba(255, 80, 80,0.369) inset; }
+  
+      .title-page .header-title h2 {
+        color: #ff5050;
+     }
+        .title-page .header-title h2::after {
+          border: 2px solid #ff5050;
+         }
+    
+      .title-page p::after {
+        background: #ff5050; }
+      .title-page p::before {
+        background: #ff5050; }
+    .btn-set::before {
+      background: #ff5050;
+      }
+    .btn-set::after {
+      background: #ff5050;
+      }
+        .btn-set-stylize .btn-stylize-div .left-span::before {
+          background: #ff5050; }
+        .btn-set-stylize .btn-stylize-div .left-span::after {
+          background: #ff5050; }
+        .btn-set-stylize .btn-stylize-div .right-span::before {
+          background: #ff5050; }
+        .btn-set-stylize .btn-stylize-div .right-span::after {
+          background: #ff5050; }
+  
+  /* end common css */
+  .main-menu {
+    border-bottom: 1px solid #ff5050;
+    }
+      .main-menu .navbar-nav .nav-item .logo-inLink::before {
+        border-bottom: 1px solid #ff5050;
+        border-top: 1px solid #ff5050; }
+     
+      .main-menu .navbar-nav .nav-item .nav-link:not(.logo-inLink).active {
+        color: #ff5050;
+        }
+    
+      #baner .baner-overlay::after {
+            background: rgba(255, 80, 80,0.153);
+            background: -webkit-gradient(
+                linear, left top, right bottom, 
+                from(rgba(255, 80, 80,0.3)), 
+                color-stop(40%, rgba(0, 0, 0, 0))) !important;
+            background: linear-gradient(
+                to bottom right,
+                rgba(255, 80, 80,0.3) 0%, 
+                 rgba(0, 0, 0, 0) 40%) !important;
+        
+         }
+    
+        #baner .baner-overlay .content-div .author-name {
+          background: #ff5050;
+           }
+              #baner .baner-overlay .content-div .author-name h2 .overlay-span::before {
+                background: #ff5050;
+                }
+      
+          #baner .baner-overlay .content-div .author-property h5::before {
+            background: #ff5050;
+             }
+          #baner .baner-overlay .content-div .author-property h5 .cd-words-wrapper .is-visible {
+            color: #ff5050; }
+
+            #about-part .about-overlay .about-content-container .about-item-list ul li .bulet {
+                border: 1px solid #ff5050;
+            }
+            #about-part .about-overlay .about-content-container .about-item-list ul li h6 {
+                color: #ff5050;
+            }
+
+
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .slick-arrow {
+                background: #ff5050;
+            }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-description {
+                border: 1px solid #ff5050;
+            }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row::before {
+              background: #ff5050;
+          }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row.slick-current .pricing-img .img {
+                background: rgba(255, 80, 80,0.459);
+              }
+              #pricing .pricing-overlay .pricing-side-text .price-container .price-circle::before {
+                border: 1px dashed #ff5050;
+            }
+            #pricing .pricing-overlay .pricing-side-text .price-btn a {
+                color: #ff5050;
+                box-shadow: 3px 3px 6px inset rgba(255, 80, 80,0.2);
+                -webkit-box-shadow: 3px 3px 6px inset rgba(255, 80, 80,0.2);
+                -moz-box-shadow: 3px 3px 6px inset rgba(255, 80, 80,0.2);
+                -o-box-shadow: 3px 3px 6px inset rgba(255, 80, 80,0.2);
+                -ms-box-shadow: 3px 3px 6px inset rgba(255, 80, 80,0.2);
+            }
+
+            #skills-part .skills-overlay .circle-each-item .diagram div {
+                border-color: #ff5050 #ff5050 transparent transparent !important;
+              }
+              
+              #skills-part .skills-overlay .circle-each-item .diagram span {
+                color: #ff5050 !important;
+              }
+
+              #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists ul li a.active {
+                color: #ff5050;
+              }
+                #work-part .work-overlay .portfolio-projects .each-portfolio .image .overlay {
+                background: rgba(255, 80, 80,0.153);
+                background: -webkit-gradient(
+                linear, left top, right bottom,
+                     color-stop(10%, #ff5050),
+                      color-stop(76%, rgba(0, 0, 0, 0))) !important;
+                background: linear-gradient(to bottom right, #ff5050
+ 10%, rgba(0, 0, 0, 0) 76%) !important;
+              }
+              #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .preview-link a {
+                background: #ff5050;
+                }
+
+                #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div {
+                background: #ff5050;
+                background: linear-gradient(
+                    186deg, rgba(255, 80, 80,0.303) 0%,
+                     #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(255, 80, 80,0.303) 0%, #080808 160%);
+              }
+                #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div .img {
+                background: #ff5050;
+                background: linear-gradient(186deg, rgba(255, 80, 80,0.705) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(255, 80, 80,0.705) 0%, #080808 160%);
+              }
+                #clients-part .clients-overlay .clients-container .clients-item .client .client-image {
+                background: #ff5050;
+                background: linear-gradient(186deg, rgba(255, 80, 80,0.308) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(255, 80, 80,0.308) 0%, #080808 160%);
+            }
+                #clients-part .clients-overlay .clients-container .clients-item .client .client-image .img {
+                background: #ff5050;
+                background: linear-gradient(186deg, rgba(255, 80, 80,0.7) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(255, 80, 80,0.7) 0%, #080808 160%);
+            }
+                #clients-part .clients-overlay .clients-container .clients-item .client {
+                background: rgba(255, 80, 80,0.205);
+                }
+                #clients-part .clients-overlay .clients-container .clients-item .slick-arrow.left {
+                    background: #ff5050;
+                }
+                #clients-part .clients-overlay .clients-container .clients-item .slick-arrow.right {
+                    background: #ff5050;
+                }
+                #clients-satisfied .satisfied-overlay .each-item .item-content h4 {
+                    background: #ff5050;
+                
+                }
+
+
+                #contact-part .contact-overlay .contact-container .form-section form input:focus, #contact-part .contact-overlay .contact-container .form-section form textarea:focus {
+                    border-color: #ff5050;
+                }
+                #contact-part .contact-overlay .contact-container .form-section form #submit-btn {
+                    background: #ff5050;
+                }
+                
+                #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item i {
+                    background: #ff5050;
+                }
+
+                #blog .blog-overlay .blog-container .blog-item .details .date a {
+                    color: #ff5050;
+                }
+                #blog .blog-overlay .blog-container .blog-item::after {
+                    background: #ff5050;
+                    background: linear-gradient(34deg, #ff5050
+                    0%, #080707 80%);
+                    background: -moz-linear-gradient(34deg, #ff5050
+                    0%, #080707 80);
+                }
+                /* =========================================
+                    BLOG PAGE CSS START
+                ============================================ */
+                #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-short-info ul li .list-innerText i {
+                    background: rgba(255, 80, 80,0.4);
+                }
+                #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-short-info ul li .list-innerText .author-property {
+                  color: #ff5050;
+              }
+              #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-description p a {
+                color: #ff5050;
+            }
+            #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-img {
+              background: #ff5050;
+              background: linear-gradient(186deg, #ff5050 0%, #080808 160%);
+          }
+          #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-text .reply a {
+            color: #ff5050;
+        }
+        #blog-page .blog-page-left-side .usr-commentBox-wrapper form input:focus, #blog-page .blog-page-left-side .usr-commentBox-wrapper form textarea:focus {
+          border-color: #ff5050;
+      }
+      #blog-page .blog-page-right-side .side-title h4 {
+        color: #ff5050;
+    }
+    #blog-page .blog-page-right-side .side-each-section.gallery-container ul li .gallery-img .overlay-gallery {
+        background: rgba(255, 80, 80,0.8);
+  }
+                  /* =========================================
+                      BLOG PAGE CSS ENDS
+                  ============================================ */
+
+                footer .footer-header h2 {
+                    background: #ff5050;
+                }
+                footer .author-contact .author-links ul li a:hover {
+                    color: #ff5050;
+                }
+
+                .copyright {
+                    box-shadow: 2px 11px 21px rgba(255, 80, 80,0.369) inset;
+                    -webkit-box-shadow: 2px 11px 21px rgba(255, 80, 80,0.369) inset;
+                    -moz-box-shadow: 2px 11px 21px rgba(255, 80, 80,0.369) inset;
+                    -o-box-shadow: 2px 11px 21px rgba(255, 80, 80,0.369) inset;
+                    -ms-box-shadow: 2px 11px 21px rgba(255, 80, 80,0.369) inset;
+                }
+                .copyright p span {
+                    color: #ff5050;
+                }
+                .popup-UpDown::before{
+                  background: rgba(255, 80, 80,0.3);
+                }

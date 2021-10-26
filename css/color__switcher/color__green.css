@@ -1,0 +1,280 @@
+/* 
+------------------
+Template Name: Jos Aflan Personal Portfolio HTML Template
+Author: illuminetheme
+Author Email: nabiulhasan.007@gmail.com
+Version: Dark Version
+----------------
+
+----------------
+Table of Content
+----------------
+1.HOME SECTION
+2.ABOUT SECTION
+3.PRICING SECTION
+4.SKILLS SECTION
+5.PORTFOLIO SECTION
+6.CLIENTS SECTION
+7.BLOG SECTION
+8.CONTACT SECTION
+
+*/
+/* start common css */
+.ColorSwitcher {
+    box-shadow: 2px 11px 21px rgba(24, 177, 163,0.369) inset; }
+  
+      .title-page .header-title h2 {
+        color: #18b1a3;
+     }
+        .title-page .header-title h2::after {
+          border: 2px solid #18b1a3;
+         }
+    
+      .title-page p::after {
+        background: #18b1a3; }
+      .title-page p::before {
+        background: #18b1a3; }
+    .btn-set::before {
+      background: #18b1a3;
+      }
+    .btn-set::after {
+      background: #18b1a3;
+      }
+        .btn-set-stylize .btn-stylize-div .left-span::before {
+          background: #18b1a3; }
+        .btn-set-stylize .btn-stylize-div .left-span::after {
+          background: #18b1a3; }
+        .btn-set-stylize .btn-stylize-div .right-span::before {
+          background: #18b1a3; }
+        .btn-set-stylize .btn-stylize-div .right-span::after {
+          background: #18b1a3; }
+  
+  /* end common css */
+  .main-menu {
+    border-bottom: 1px solid #18b1a3;
+    }
+      .main-menu .navbar-nav .nav-item .logo-inLink::before {
+        border-bottom: 1px solid #18b1a3;
+        border-top: 1px solid #18b1a3; }
+     
+      .main-menu .navbar-nav .nav-item .nav-link:not(.logo-inLink).active {
+        color: #18b1a3;
+        }
+    
+      #baner .baner-overlay::after {
+            background: rgba(24, 177, 163,0.153);
+            background: -webkit-gradient(
+                linear, left top, right bottom, 
+                from(rgba(24, 177, 163,0.3)), 
+                color-stop(40%, rgba(0, 0, 0, 0))) !important;
+            background: linear-gradient(
+                to bottom right,
+                rgba(24, 177, 163,0.3) 0%, 
+                 rgba(0, 0, 0, 0) 40%) !important;
+        
+         }
+    
+        #baner .baner-overlay .content-div .author-name {
+          background: #18b1a3;
+           }
+              #baner .baner-overlay .content-div .author-name h2 .overlay-span::before {
+                background: #18b1a3;
+                }
+      
+          #baner .baner-overlay .content-div .author-property h5::before {
+            background: #18b1a3;
+             }
+          #baner .baner-overlay .content-div .author-property h5 .cd-words-wrapper .is-visible {
+            color: #18b1a3; }
+
+            #about-part .about-overlay .about-content-container .about-item-list ul li .bulet {
+                border: 1px solid #18b1a3;
+            }
+            #about-part .about-overlay .about-content-container .about-item-list ul li h6 {
+                color: #18b1a3;
+            }
+
+
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .slick-arrow {
+                background: #18b1a3;
+            }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-description {
+                border: 1px solid #18b1a3;
+            }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row::before {
+              background: #18b1a3;
+          }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row.slick-current .pricing-img .img {
+                background: rgba(24, 177, 163,0.459);
+              }
+              #pricing .pricing-overlay .pricing-side-text .price-container .price-circle::before {
+                border: 1px dashed #18b1a3;
+            }
+            #pricing .pricing-overlay .pricing-side-text .price-btn a {
+                color: #18b1a3;
+                box-shadow: 3px 3px 6px inset rgba(24, 177, 163,0.2);
+                -webkit-box-shadow: 3px 3px 6px inset rgba(24, 177, 163,0.2);
+                -moz-box-shadow: 3px 3px 6px inset rgba(24, 177, 163,0.2);
+                -o-box-shadow: 3px 3px 6px inset rgba(24, 177, 163,0.2);
+                -ms-box-shadow: 3px 3px 6px inset rgba(24, 177, 163,0.2);
+            }
+
+            #skills-part .skills-overlay .circle-each-item .diagram div {
+                border-color: #18b1a3 #18b1a3 transparent transparent !important;
+              }
+              
+              #skills-part .skills-overlay .circle-each-item .diagram span {
+                color: #18b1a3 !important;
+              }
+
+              #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists ul li a {
+                color: #777777;
+            }
+              #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists ul li a.active {
+                color: #18b1a3;
+              }
+                #work-part .work-overlay .portfolio-projects .each-portfolio .image .overlay {
+                background: rgba(24, 177, 163,0.153);
+                background: -webkit-gradient(
+                linear, left top, right bottom,
+                     color-stop(10%, #18b1a3),
+                      color-stop(76%, rgba(0, 0, 0, 0))) !important;
+                background: linear-gradient(to bottom right, #18b1a3
+                10%, rgba(0, 0, 0, 0) 76%) !important;
+              }
+              #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .preview-link a {
+                background: #18b1a3;
+                border-color:transparent;
+                }
+                #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .preview-link a::before {
+                    background: #ffffff;
+                }
+                #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .preview-link a::after {
+                    background: #ffffff;
+                }
+
+                #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div {
+                background: #18b1a3;
+                background: linear-gradient(
+                    186deg, rgba(24, 177, 163,0.303) 0%,
+                     #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(24, 177, 163,0.303) 0%, #080808 160%);
+              }
+                #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div .img {
+                background: #18b1a3;
+                background: linear-gradient(186deg, rgba(24, 177, 163,0.705) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(24, 177, 163,0.705) 0%, #080808 160%);
+              }
+                #clients-part .clients-overlay .clients-container .clients-item .client .client-image {
+                background: #18b1a3;
+                background: linear-gradient(186deg, rgba(24, 177, 163,0.308) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(24, 177, 163,0.308) 0%, #080808 160%);
+            }
+                #clients-part .clients-overlay .clients-container .clients-item .client .client-image .img {
+                background: #18b1a3;
+                background: linear-gradient(186deg, rgba(24, 177, 163,0.7) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(24, 177, 163,0.7) 0%, #080808 160%);
+            }
+                #clients-part .clients-overlay .clients-container .clients-item .client {
+                background: rgba(24, 177, 163,0.205);
+                }
+                #clients-part .clients-overlay .clients-container .clients-item .slick-arrow.left {
+                    background: #18b1a3;
+                }
+                #clients-part .clients-overlay .clients-container .clients-item .slick-arrow.right {
+                    background: #18b1a3;
+                }
+                #clients-satisfied .satisfied-overlay .each-item .item-content h4 {
+                    background: #18b1a3;
+                
+                }
+
+
+                #contact-part .contact-overlay .contact-container .form-section form input:focus, #contact-part .contact-overlay .contact-container .form-section form textarea:focus {
+                    border-color: #18b1a3;
+                }
+                #contact-part .contact-overlay .contact-container .form-section form #submit-btn {
+                    background: #18b1a3;
+                }
+                #contact-part .contact-overlay .contact-container .form-section form #submit-btn::before {
+                    background: #ffffff;
+                }
+                #contact-part .contact-overlay .contact-container .form-section form #submit-btn::after {
+                    background: #ffffff;
+                }
+                
+                #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item i {
+                    background: #18b1a3;
+                }
+
+                #blog .blog-overlay .blog-container .blog-item .details .date a {
+                    color: #18b1a3;
+                }
+                #blog .blog-overlay .blog-container .blog-item::after {
+                    background: #18b1a3;
+                    background: linear-gradient(34deg, #18b1a3
+                    0%, #080707 80%);
+                    background: -moz-linear-gradient(34deg, #18b1a3
+                    0%, #080707 80);
+                }
+                /* =========================================
+                    BLOG PAGE CSS START
+                ============================================ */
+                #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-short-info ul li .list-innerText i {
+                    background: rgba(24, 177, 163,0.4);
+                }
+                #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-short-info ul li .list-innerText .author-property {
+                  color: #18b1a3;
+              }
+              #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-description p a {
+                color: #18b1a3;
+            }
+            #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-img {
+              background: #18b1a3;
+              background: linear-gradient(186deg, #18b1a3 0%, #080808 160%);
+          }
+          #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-text .reply a {
+            color: #18b1a3;
+        }
+        #blog-page .blog-page-left-side .usr-commentBox-wrapper form input:focus, #blog-page .blog-page-left-side .usr-commentBox-wrapper form textarea:focus {
+          border-color: #18b1a3;
+      }
+      #blog-page .blog-page-right-side .side-title h4 {
+        color: #18b1a3;
+    }
+    #blog-page .blog-page-right-side .side-each-section.gallery-container ul li .gallery-img .overlay-gallery {
+        background: rgba(24, 177, 163,0.8);
+  }
+    #blog-page .blog-page-right-side .side-each-section.gallery-container ul li .gallery-img .overlay-gallery .links a i {
+    border:1px solid rgba(17, 17, 17, 0.2);
+}
+ #blog-page .blog-page-right-side .side-each-section.gallery-container ul li .gallery-img .overlay-gallery .links a i:hover{
+   border-color:transparent;
+ }
+                  /* =========================================
+                      BLOG PAGE CSS ENDS
+                  ============================================ */
+
+                footer .footer-header h2 {
+                    background: #18b1a3;
+                }
+                footer .author-contact .author-links ul li a:hover {
+                    color: #18b1a3;
+                }
+
+                .copyright {
+                    box-shadow: 2px 11px 21px rgba(24, 177, 163,0.369) inset;
+                    -webkit-box-shadow: 2px 11px 21px rgba(24, 177, 163,0.369) inset;
+                    -moz-box-shadow: 2px 11px 21px rgba(24, 177, 163,0.369) inset;
+                    -o-box-shadow: 2px 11px 21px rgba(24, 177, 163,0.369) inset;
+                    -ms-box-shadow: 2px 11px 21px rgba(24, 177, 163,0.369) inset;
+                }
+                .copyright p {
+                    color: #777777;
+                }
+                .copyright p span {
+                    color: #18b1a3;
+                }
+                .popup-UpDown::before{
+                  background: rgba(24, 177, 163,.3);
+                }

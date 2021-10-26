@@ -1,0 +1,275 @@
+/* 
+------------------
+Template Name: Jos Aflan Personal Portfolio HTML Template
+Author: illuminetheme
+Author Email: nabiulhasan.007@gmail.com
+Version: Dark Version
+----------------
+
+----------------
+Table of Content
+----------------
+1.HOME SECTION
+2.ABOUT SECTION
+3.PRICING SECTION
+4.SKILLS SECTION
+5.PORTFOLIO SECTION
+6.CLIENTS SECTION
+7.BLOG SECTION
+8.CONTACT SECTION
+
+*/
+/* start common css */
+.ColorSwitcher {
+    box-shadow: 2px 11px 21px rgba(255, 121, 7,0.369) inset; }
+  
+      .title-page .header-title h2 {
+        color: #ff7907;
+     }
+        .title-page .header-title h2::after {
+          border: 2px solid #ff7907;
+         }
+    
+      .title-page p::after {
+        background: #ff7907; }
+      .title-page p::before {
+        background: #ff7907; }
+    .btn-set::before {
+      background: #ff7907;
+      }
+    .btn-set::after {
+      background: #ff7907;
+      }
+        .btn-set-stylize .btn-stylize-div .left-span::before {
+          background: #ff7907; }
+        .btn-set-stylize .btn-stylize-div .left-span::after {
+          background: #ff7907; }
+        .btn-set-stylize .btn-stylize-div .right-span::before {
+          background: #ff7907; }
+        .btn-set-stylize .btn-stylize-div .right-span::after {
+          background: #ff7907; }
+  
+  /* end common css */
+  .main-menu {
+    border-bottom: 1px solid #ff7907;
+    }
+      .main-menu .navbar-nav .nav-item .logo-inLink::before {
+        border-bottom: 1px solid #ff7907;
+        border-top: 1px solid #ff7907; }
+     
+      .main-menu .navbar-nav .nav-item .nav-link:not(.logo-inLink).active {
+        color: #ff7907;
+        }
+    
+      #baner .baner-overlay::after {
+            background: rgba(255, 121, 7,0.153);
+            background: -webkit-gradient(
+                linear, left top, right bottom, 
+                from(rgba(255, 121, 7,0.153)), 
+                color-stop(40%, rgba(0, 0, 0, 0))) !important;
+            background: linear-gradient(
+                to bottom right,
+                rgba(255, 121, 7,0.153) 0%, 
+                 rgba(0, 0, 0, 0) 40%) !important;
+        
+         }
+    
+        #baner .baner-overlay .content-div .author-name {
+          background: #ff7907;
+           }
+              #baner .baner-overlay .content-div .author-name h2 .overlay-span::before {
+                background: #ff7907;
+                }
+      
+          #baner .baner-overlay .content-div .author-property h5::before {
+            background: #ff7907;
+             }
+          #baner .baner-overlay .content-div .author-property h5 .cd-words-wrapper .is-visible {
+            color: #ff7907; }
+
+            #about-part .about-overlay .about-content-container .about-item-list ul li .bulet {
+                border: 1px solid #ff7907;
+            }
+            #about-part .about-overlay .about-content-container .about-item-list ul li h6 {
+                color: #ff7907;
+            }
+
+
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .slick-arrow {
+                background: #ff7907;
+            }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-description {
+                border: 1px solid #ff7907;
+            }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row::before {
+              background: #ff7907;
+          }
+            #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row.slick-current .pricing-img .img {
+                background: rgba(255, 121, 7,0.459);
+              }
+              #pricing .pricing-overlay .pricing-side-text .price-container .price-circle::before {
+                border: 1px dashed #ff7907;
+            }
+            #pricing .pricing-overlay .pricing-side-text .price-btn a {
+                color: #ff7907;
+                box-shadow: 3px 3px 6px inset rgba(255, 121, 7,0.2);
+                -webkit-box-shadow: 3px 3px 6px inset rgba(255, 121, 7,0.2);
+                -moz-box-shadow: 3px 3px 6px inset rgba(255, 121, 7,0.2);
+                -o-box-shadow: 3px 3px 6px inset rgba(255, 121, 7,0.2);
+                -ms-box-shadow: 3px 3px 6px inset rgba(255, 121, 7,0.2);
+            }
+
+            #skills-part .skills-overlay .circle-each-item .diagram div {
+                border-color: #ff7907 #ff7907 transparent transparent !important;
+              }
+              
+              #skills-part .skills-overlay .circle-each-item .diagram span {
+                color: #ff7907 !important;
+              }
+
+              #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists ul li a {
+                color: #ffffff;
+            }
+              #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists ul li a.active {
+                color: #ff7907;
+              }
+                #work-part .work-overlay .portfolio-projects .each-portfolio .image .overlay {
+                background: rgba(255, 121, 7,0.153);
+                background: -webkit-gradient(
+                linear, left top, right bottom,
+                     color-stop(10%, #ff7907),
+                      color-stop(76%, rgba(0, 0, 0, 0))) !important;
+                background: linear-gradient(to bottom right, #ff7907
+                10%, rgba(0, 0, 0, 0) 76%) !important;
+              }
+              #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .preview-link a {
+                background: #ff7907;
+                border-color:transparent;
+                }
+                #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .preview-link a::before {
+                    background: #ffffff;
+                }
+                #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .preview-link a::after {
+                    background: #ffffff;
+                }
+
+                #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div {
+                background: #ff7907;
+                background: linear-gradient(
+                    186deg, rgba(255, 121, 7,0.153) 0%,
+                     #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(255, 121, 7,0.153) 0%, #080808 160%);
+              }
+                #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div .img {
+                background: #ff7907;
+                background: linear-gradient(186deg, rgba(255, 121, 7,0.705) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(255, 121, 7,0.705) 0%, #080808 160%);
+              }
+                #clients-part .clients-overlay .clients-container .clients-item .client .client-image {
+                background: #ff7907;
+                background: linear-gradient(186deg, rgba(255, 121, 7,0.308) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(255, 121, 7,0.308) 0%, #080808 160%);
+            }
+                #clients-part .clients-overlay .clients-container .clients-item .client .client-image .img {
+                background: #ff7907;
+                background: linear-gradient(186deg, rgba(255, 121, 7,0.7) 0%, #080808 160%);
+                background: -moz-linear-gradient(186deg, rgba(255, 121, 7,0.7) 0%, #080808 160%);
+            }
+                #clients-part .clients-overlay .clients-container .clients-item .client {
+                background: rgba(255, 121, 7,0.205);
+                }
+                #clients-part .clients-overlay .clients-container .clients-item .slick-arrow.left {
+                    background: #ff7907;
+                }
+                #clients-part .clients-overlay .clients-container .clients-item .slick-arrow.right {
+                    background: #ff7907;
+                }
+                #clients-satisfied .satisfied-overlay .each-item .item-content h4 {
+                    background: #ff7907;
+                
+                }
+
+
+                #contact-part .contact-overlay .contact-container .form-section form input:focus, #contact-part .contact-overlay .contact-container .form-section form textarea:focus {
+                    border-color: #ff7907;
+                }
+                #contact-part .contact-overlay .contact-container .form-section form #submit-btn {
+                    background: #ff7907;
+                }
+                #contact-part .contact-overlay .contact-container .form-section form #submit-btn::before {
+                    background: #ffffff;
+                }
+                #contact-part .contact-overlay .contact-container .form-section form #submit-btn::after {
+                    background: #ffffff;
+                }
+                
+                #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item i {
+                    background: #ff7907;
+                }
+
+                #blog .blog-overlay .blog-container .blog-item .details .date a {
+                    color: #ff7907;
+                }
+                #blog .blog-overlay .blog-container .blog-item::after {
+                    background: #ff7907;
+                    background: linear-gradient(34deg, #ff7907
+                    0%, #080707 80%);
+                    background: -moz-linear-gradient(34deg, #ff7907
+                    0%, #080707 80);
+                }
+                /* =========================================
+                    BLOG PAGE CSS START
+                ============================================ */
+                #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-short-info ul li .list-innerText i {
+                    background: rgba(255, 121, 7,0.4);
+                }
+                #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-short-info ul li .list-innerText .author-property {
+                  color: #ff7907;
+              }
+              #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-description p a {
+                color: #ff7907;
+            }
+            #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-img {
+              background: #ff7907;
+              background: linear-gradient(186deg, #ff7907 0%, #080808 160%);
+          }
+          #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-text .reply a {
+            color: #ff7907;
+        }
+        #blog-page .blog-page-left-side .usr-commentBox-wrapper form input:focus, #blog-page .blog-page-left-side .usr-commentBox-wrapper form textarea:focus {
+          border-color: #ff7907;
+      }
+      #blog-page .blog-page-right-side .side-title h4 {
+        color: #ff7907;
+    }
+    #blog-page .blog-page-right-side .side-each-section.gallery-container ul li .gallery-img .overlay-gallery {
+        background: rgba(255, 121, 7,0.8);
+  }
+
+                  /* =========================================
+                      BLOG PAGE CSS ENDS
+                  ============================================ */
+
+                footer .footer-header h2 {
+                    background: #ff7907;
+                }
+                footer .author-contact .author-links ul li a:hover {
+                    color: #ff7907;
+                }
+
+                .copyright {
+                    box-shadow: 2px 11px 21px rgba(255, 121, 7,0.369) inset;
+                    -webkit-box-shadow: 2px 11px 21px rgba(255, 121, 7,0.369) inset;
+                    -moz-box-shadow: 2px 11px 21px rgba(255, 121, 7,0.369) inset;
+                    -o-box-shadow: 2px 11px 21px rgba(255, 121, 7,0.369) inset;
+                    -ms-box-shadow: 2px 11px 21px rgba(255, 121, 7,0.369) inset;
+                }
+                .copyright p {
+                    color: #777777;
+                }
+                .copyright p span {
+                    color: #ff7907;
+                }
+                .popup-UpDown::before{
+                  background: rgba(255, 121, 7,0.3);
+                }

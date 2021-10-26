@@ -1,0 +1,910 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*===============================
+    BANER PART RESPONSIVE START
+   ================================*/
+  .navbar-light .navbar-toggler {
+    margin: 5px; }
+
+  .main-menu.fixed-menu {
+    padding: 3px 0; }
+  .main-menu .navbar-nav .nav-item .nav-link:not(.logo-inLink) {
+    padding: 15px 20px; }
+  .main-menu .navbar-brand {
+    display: none; }
+
+ /*===============================
+ BANER PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ ABOUT PART RESPONSIVE START
+================================*/
+  #about-part .about-overlay .about-content-container .image-container {
+    max-width: 400px; }
+    #about-part .about-overlay .about-content-container .image-container::before {
+      width: 23px;
+      right: -37px;
+      top: 75px; }
+    #about-part .about-overlay .about-content-container .image-container::after {
+      height: 23px;
+      right: -49px;
+      bottom: -40px; }
+
+ /*===============================
+ ABOUT PART RESPONSIVE ENDS
+================================*/
+  /*===============================
+   SKILLS PART RESPONSIVE ENDS
+  ================================*/
+  #skills-part .skills-overlay {
+    padding: 30px 0; }
+
+ /*===============================
+ SKILLS PART RESPONSIVE ENDS
+================================*/
+  /*===============================
+  WORK PART RESPONSIVE START
+  ================================*/
+  #work-part .work-overlay {
+    padding: 30px 0; }
+    #work-part .work-overlay .portfolio-projects .each-portfolio .image .overlay h3 {
+      font-size: 20px; }
+    #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .text h3 {
+      font-size: 26px; }
+
+  /*===============================
+  WORK PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  SATISFIED CLIENTS PART RESPONSIVE START
+  ================================*/
+  #clients-satisfied .satisfied-overlay .each-item .item-content h3 {
+    font-size: 24px; }
+
+  /*===============================
+  SATISFIED CLIENTS PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  CONTACT PART RESPONSIVE START
+  ================================*/
+  #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item {
+    width: 80%; }
+    #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item p {
+      font-size: 16px;
+      line-height: 24px; }
+
+  /*===============================
+  CONTACT PART RESPONSIVE ENDS
+  ================================*/ }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*===============================
+   COMMON CSS RESPONSIVE START
+  ================================*/
+  p {
+    font-size: 15px; }
+
+  .btn-set {
+    font-size: 13px; }
+
+  .ctn-preloader .animation-preloader .txt-loading {
+    font: bold 4em "Montserrat", sans-serif; }
+
+  .title-page .header-title h2 {
+    font-size: 40px; }
+
+  /*===============================
+   COMMON CSS RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+    BANER PART RESPONSIVE START
+   ================================*/
+  .navbar-light .navbar-toggler {
+    margin: 5px; }
+
+  .main-menu.fixed-menu {
+    padding: 3px 0; }
+  .main-menu .navbar-brand {
+    left: auto;
+    right: 0 !important;
+    top: 5px;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    display: block;
+    width: auto; }
+    .main-menu .navbar-brand img {
+      width: 100px; }
+
+  #baner .baner-overlay .content-div .author-name h2 {
+    font-size: 55px; }
+  #baner .baner-overlay .content-div .author-property h5 {
+    font-size: 16px; }
+    #baner .baner-overlay .content-div .author-property h5::before {
+      width: 12px;
+      height: 12px; }
+
+ /*===============================
+ BANER PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ ABOUT PART RESPONSIVE START
+================================*/
+  #about-part .about-overlay {
+    padding: 60px 0 80px 0; }
+    #about-part .about-overlay .about-content-container .about-item-list {
+      padding: 50px 0; }
+
+ /*===============================
+ ABOUT PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ EXPERIENCE PART RESPONSIVE START
+================================*/
+  #experience-part .experience-overlay .each-column .context-container .card .card-header .date {
+    font-size: 15px;
+    top: 6px; }
+  #experience-part .experience-overlay .each-column .context-container .card .card-header .work-title-area {
+    font-size: 16px; }
+
+ /*===============================
+ EXPERIENCE PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ PRICING PART RESPONSIVE START
+================================*/
+  #pricing .pricing-overlay {
+    padding: 60px 0 0 0; }
+    #pricing .pricing-overlay .pricing-side-text {
+      margin: 70px 40px 0 40px; }
+      #pricing .pricing-overlay .pricing-side-text::after {
+        display: none; }
+      #pricing .pricing-overlay .pricing-side-text p {
+        padding: 25px 50px;
+        font-size: 15px;
+        line-height: 26px; }
+      #pricing .pricing-overlay .pricing-side-text .side-text-header h2 {
+        font-size: 26px; }
+
+ /*===============================
+ PRICING PART RESPONSIVE ENDS
+================================*/
+ /*===================================
+ MY WORK PART RESPONSIVE ENDS
+======================================*/
+  #work-part .work-overlay {
+    padding: 30px 0; }
+    #work-part .work-overlay .portfolio-projects .work-category-list .category-left-text h3 {
+      pading-top: 15px; }
+
+ /*===================================
+ MY WORK PART RESPONSIVE ENDS
+======================================*/
+ /*===============================
+ CLIENTSPART  RESPONSIVE START
+================================*/
+  #clients-part .clients-overlay {
+    padding: 30px 0; }
+    #clients-part .clients-overlay .clients-container {
+      padding: 60px 0 30px 0; }
+      #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-1 {
+        left: -70px;
+        top: -10px;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8); }
+        #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-1::before {
+          bottom: -126px;
+          transform: rotate(6deg);
+          -webkit-transform: rotate(6deg);
+          -moz-transform: rotate(6deg);
+          -o-transform: rotate(6deg);
+          -ms-transform: rotate(6deg);
+          left: 37px; }
+      #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-2 {
+        top: 160px;
+        left: -86px;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8); }
+      #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-3 {
+        left: -70px;
+        top: 314px;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8); }
+        #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-3::before {
+          bottom: -126px;
+          transform: rotate(-6deg);
+          -webkit-transform: rotate(-6deg);
+          -moz-transform: rotate(-6deg);
+          -o-transform: rotate(-6deg);
+          -ms-transform: rotate(-6deg);
+          left: 37px; }
+      #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-4 {
+        right: -70px;
+        top: -10px;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8); }
+        #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-4::before {
+          bottom: -126px;
+          transform: rotate(-6deg);
+          -webkit-transform: rotate(-6deg);
+          -moz-transform: rotate(-6deg);
+          -o-transform: rotate(-6deg);
+          -ms-transform: rotate(-6deg);
+          left: 50px; }
+      #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-5 {
+        right: -86px;
+        top: 160px;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8); }
+      #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-6 {
+        right: -70px;
+        top: 314px;
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8); }
+        #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-6::before {
+          bottom: -126px;
+          transform: rotate(6deg);
+          -webkit-transform: rotate(6deg);
+          -moz-transform: rotate(6deg);
+          -o-transform: rotate(6deg);
+          -ms-transform: rotate(6deg);
+          left: 50px; }
+      #clients-part .clients-overlay .clients-container .clients-item .client .client-name {
+        font-size: 20px; }
+      #clients-part .clients-overlay .clients-container .clients-item .client .client-designation {
+        font-size: 16px; }
+
+ /*===============================
+ CLIENTSPART  RESPONSIVE ENDS
+================================*/
+ /*===================================
+ SATISFIED CLIENTS RESPONSIVE START
+======================================*/
+  #clients-satisfied .satisfied-overlay {
+    padding: 30px 0; }
+    #clients-satisfied .satisfied-overlay .each-item {
+      margin-bottom: 25px; }
+
+ /*===================================
+ SATISFIED CLIENTS  RESPONSIVE ENDS
+======================================*/
+  /*===================================
+   CONTACT  RESPONSIVE START
+  ======================================*/
+  #contact-part .contact-overlay .contact-container .contact-info-column .contact-info {
+    margin-top: 50px; }
+
+  /*===================================
+   CONTACT  RESPONSIVE ENDS
+  ======================================*/
+ /*===================================
+ BLOG PAGE  RESPONSIVE START
+======================================*/
+  .header-bloging .baner-text-container {
+    width: 85%; }
+    .header-bloging .baner-text-container .blog-title h3 {
+      font-size: 22px;
+      line-height: 38px; }
+
+  #blog-page .blog-page-left-side .usr-commentBox-wrapper {
+    margin-bottom: 35px; }
+
+ /*===================================
+ BLOG  RESPONSIVE ENDS
+======================================*/
+  /*===================================
+   FOOTER  RESPONSIVE START
+  ======================================*/
+  footer .each-item:not(:last-child) {
+    border-right: none; }
+  footer .author-descrive h5 {
+    font-size: 18px;
+    line-height: 30px; }
+  footer .title-footer {
+    font-size: 18px; }
+  footer .author-map img {
+    display: block; }
+  footer .author-contact .author-links ul li {
+    margin-bottom: 15px; }
+
+  .popup-UpDown {
+    right: 20px;
+    bottom: 20px; }
+
+  .popup-UpDown {
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 0 0 0 3px #353535, 0 0 0 0px #3e3e3e, inset 0 0 14px black, 0 0px 5px rgba(0, 0, 0, 0.5), inset 0 0 11px rgba(0, 0, 0, 0.2); }
+
+  /*===================================
+   FOOTER  RESPONSIVE ENDS
+  ======================================*/ }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*===============================
+   COMMON CSS RESPONSIVE START
+  ================================*/
+  p {
+    font-size: 15px; }
+
+  .btn-set {
+    font-size: 12px; }
+
+  .title-page .header-title h2 {
+    font-size: 36px; }
+
+  /*===============================
+   COMMON CSS RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+   BANER PART RESPONSIVE START
+  ================================*/
+  .navbar-light .navbar-toggler {
+    margin: 5px; }
+
+  .main-menu.fixed-menu {
+    padding: 3px 0; }
+  .main-menu .navbar-brand {
+    left: auto;
+    right: 0 !important;
+    top: 5px;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    display: block;
+    width: auto; }
+    .main-menu .navbar-brand img {
+      width: 100px; }
+
+  #baner .baner-overlay .content-div .author-name h2 {
+    font-size: 46px; }
+  #baner .baner-overlay .content-div .author-property h5 {
+    font-size: 15px; }
+    #baner .baner-overlay .content-div .author-property h5::before {
+      width: 12px;
+      height: 12px; }
+
+ /*===============================
+ BANER PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ ABOUT PART RESPONSIVE START
+================================*/
+  #about-part .about-overlay {
+    padding: 60px 0 80px; }
+    #about-part .about-overlay .about-content-container .about-item-list {
+      padding: 35px 0; }
+
+ /*===============================
+ ABOUT PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ EXPERIENCE PART RESPONSIVE START
+================================*/
+  #experience-part .experience-overlay .each-column .context-container .card .card-header .year {
+    top: 6px;
+    font-size: 14px; }
+  #experience-part .experience-overlay .each-column .context-container .card .card-header .work-title-area {
+    font-size: 15px;
+    margin-top: 8px; }
+
+ /*===============================
+ EXPERIENCE PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ PRICING PART RESPONSIVE START
+================================*/
+  #pricing .pricing-overlay {
+    padding: 50px 0 0 0; }
+    #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-title h3 {
+      font-size: 20px; }
+    #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-icon .svg-icon {
+      width: 60px;
+      height: 60px;
+      transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9);
+      -o-transform: scale(0.9);
+      -ms-transform: scale(0.9); }
+    #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-description h3 {
+      font-size: 21px; }
+    #pricing .pricing-overlay .pricing-side-text {
+      margin: 70px 40px 0 40px; }
+      #pricing .pricing-overlay .pricing-side-text::after {
+        display: none; }
+      #pricing .pricing-overlay .pricing-side-text .side-text-header h2 {
+        font-size: 20px; }
+      #pricing .pricing-overlay .pricing-side-text .side-text-header p {
+        padding-bottom: 25px; }
+
+ /*===============================
+ PRICING PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ SKILLS PART RESPONSIVE START
+================================*/
+  #skills-part .skills-overlay {
+    padding: 30px 0; }
+    #skills-part .skills-overlay .skills-container .circle-each-item .skill-titles h4 {
+      font-size: 14px; }
+
+ /*===============================
+ SKILLS PART RESPONSIVE ENDS
+================================*/
+ /*===============================
+ RECENT WORK RESPONSIVE START
+================================*/
+  #work-part .work-overlay {
+    padding: 30px 0; }
+    #work-part .work-overlay .portfolio-projects .work-category-list .category-left-text h3 {
+      border-right: 1px solid #ffffff;
+      font-size: 20px;
+      line-height: 26px; }
+    #work-part .work-overlay .portfolio-projects .each-portfolio .image .overlay h3 {
+      font-size: 20px; }
+
+ /*===============================
+ RECENT WORK RESPONSIVE ENDS
+================================*/
+ /*===============================
+ CLIENTSPART  RESPONSIVE START
+================================*/
+  #clients-part .clients-overlay {
+    padding: 30px 0; }
+    #clients-part .clients-overlay .clients-container {
+      padding: 60px 0 30px 0; }
+      #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-1, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-2, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-3, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-4, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-5, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-6 {
+        display: none; }
+      #clients-part .clients-overlay .clients-container .clients-item .client .client-name {
+        font-size: 18px; }
+      #clients-part .clients-overlay .clients-container .clients-item .client .client-designation {
+        font-size: 13px; }
+
+ /*===============================
+ CLIENTSPART  RESPONSIVE ENDS
+================================*/
+ /*===============================
+ SATISFIED CLIENTS  RESPONSIVE START
+================================*/
+  #clients-satisfied .satisfied-overlay .each-item {
+    margin-bottom: 25px; }
+    #clients-satisfied .satisfied-overlay .each-item .item-content h3 {
+      font-size: 24px; }
+
+ /*===============================
+ SATISFIED CLIENTS  RESPONSIVE ENDS
+================================*/
+ /*===============================
+ CONTACT  RESPONSIVE START
+================================*/
+  #contact-part .contact-overlay .contact-container .contact-info-column .contact-info {
+    margin: 50px 0; }
+    #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item {
+      width: 90%; }
+      #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item p {
+        line-height: 23px; }
+
+ /*===============================
+ CONTACT  RESPONSIVE ENDS
+================================*/
+  /*============================================
+  >>>>>>>>>BLOG PAGE RESPONSIVE START<<<<<<<<<<<
+  ==============================================*/
+  .header-bloging .baner-text-container {
+    padding: 0 30px;
+    width: 90%; }
+    .header-bloging .baner-text-container .blog-title h3 {
+      line-height: 30px;
+      margin-bottom: 20px;
+      font-size: 20px; }
+    .header-bloging .baner-text-container .blog-meta span {
+      font-size: 13px;
+      margin-left: 15px; }
+
+  #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-short-info ul li {
+    font-size: 13px;
+    padding-bottom: 8px; }
+  #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-description p {
+    font-size: 15px;
+    line-height: 26px; }
+  #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-description .multiple-image .img-each {
+    margin: 15px 0; }
+  #blog-page .blog-page-left-side .blog-reletedpost-wrapper .related-post-wrapper .related-post {
+    margin-bottom: 30px; }
+  #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-text .commenter-title {
+    font-size: 19px;
+    padding-right: 110px;
+    line-height: 24px; }
+  #blog-page .blog-page-left-side .BlogLeft-Boxheader h3 {
+    font-size: 21px; }
+  #blog-page .blog-page-right-side .side-each-section {
+    margin: 30px 0; }
+
+  /*============================================
+  >>>>>>>>>BLOG PAGE RESPONSIVE ENDS<<<<<<<<<<<
+  ==============================================*/
+  /*===============================
+   FOOTER  RESPONSIVE START   
+  ================================*/
+  footer {
+    margin: 0 0 0 0; }
+    footer .each-item:not(:last-child) {
+      border-right: none; }
+    footer .footer-header h2 {
+      font-size: 46px; }
+    footer .author-contact .author-links ul li {
+      margin-bottom: 10px; }
+
+  .popup-UpDown {
+    right: 15px;
+    bottom: 15px; }
+
+  .popup-UpDown {
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 0 0 0 3px #353535, 0 0 0 0px #3e3e3e, inset 0 0 14px black, 0 0px 5px rgba(0, 0, 0, 0.5), inset 0 0 11px rgba(0, 0, 0, 0.2); }
+
+ /*===============================
+ FOOTER  RESPONSIVE ENDS
+================================*/ }
+@media (min-width: 320px) and (max-width: 575.98px) {
+  p {
+    font-size: 14px; }
+
+  .btn-set {
+    padding: 15px 35px;
+    font-size: 12px; }
+    .btn-set .btn-stylize-div .left-span::after {
+      width: 45px;
+      right: -48px; }
+    .btn-set .btn-stylize-div .left-span::before {
+      width: 45px;
+      left: -48px; }
+    .btn-set .btn-stylize-div .right-span::before {
+      left: -50px; }
+    .btn-set .btn-stylize-div .right-span::after {
+      right: -50px; }
+
+  .title-page {
+    padding: 0 25px; }
+    .title-page .header-title h2 {
+      font-size: 32px; }
+    .title-page .header-title p {
+      word-break: break-all; }
+      .title-page .header-title p::before {
+        width: 10px;
+        right: -15px; }
+      .title-page .header-title p::after {
+        width: 10px;
+        left: -15px; }
+
+  /*===============================
+  BANER PART RESPONSIVE START
+  ================================*/
+  .navbar-light .navbar-toggler {
+    margin: 5px; }
+
+  .main-menu.fixed-menu {
+    padding: 3px 0; }
+  .main-menu .navbar-brand {
+    left: auto;
+    right: 0 !important;
+    top: 5px;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    display: block;
+    width: auto; }
+    .main-menu .navbar-brand img {
+      width: 100px; }
+  .main-menu .navbar-nav .nav-item.nav-item-logo {
+    display: none; }
+
+  #baner .baner-overlay .content-div .author-name h2 {
+    font-size: 42px; }
+  #baner .baner-overlay .content-div .author-property h5 {
+    font-size: 14px; }
+    #baner .baner-overlay .content-div .author-property h5::before {
+      width: 11px;
+      height: 11px; }
+
+  /*===============================
+  BANER PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  ABOUT PART RESPONSIVE START
+  ================================*/
+  #about-part .about-overlay .about-content-container .about-item-list {
+    padding: 60px 30px 0 15px; }
+    #about-part .about-overlay .about-content-container .about-item-list ul li {
+      max-width: 100%;
+      flex: 100%; }
+      #about-part .about-overlay .about-content-container .about-item-list ul li h6 {
+        font-size: 14px;
+        line-height: 22px;
+        word-break: break-all; }
+  #about-part .about-overlay .about-content-container .image-container::before {
+    width: 70%;
+    height: 20px;
+    right: auto;
+    left: 0;
+    bottom: -75px;
+    top: auto; }
+  #about-part .about-overlay .about-content-container .image-container::after {
+    width: 80%;
+    height: 20px;
+    right: 0; }
+
+  /*===============================
+  ABOUT PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  EXPERIENCE PART RESPONSIVE START
+  ================================*/
+  #experience-part .experience-overlay {
+    padding: 50px 0 25px 0; }
+    #experience-part .experience-overlay .experience-title {
+      margin-bottom: 50px;
+      font-size: 23px; }
+    #experience-part .experience-overlay .each-column .side-title h3 {
+      font-size: 24px; }
+    #experience-part .experience-overlay .each-column .context-container .card .card-header .year i {
+      padding-right: 15px; }
+    #experience-part .experience-overlay .each-column .context-container .card .card-header .work-title-area {
+      font-size: 14px;
+      margin-top: 10px; }
+    #experience-part .experience-overlay .each-column .context-container .card .card-body p {
+      font-size: 14px; }
+
+  /*===============================
+  PRICING PART RESPONSIVE START
+  ================================*/
+  #pricing .pricing-overlay {
+    padding: 50px 0 0 0; }
+    #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-title {
+      width: 43%;
+      padding: 0 10px; }
+      #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-title h3 {
+        font-size: 16px; }
+    #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-icon {
+      width: 14%; }
+      #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-icon .svg-icon {
+        width: 35px;
+        height: 35px;
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        -ms-transform: scale(0.9); }
+        #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-icon .svg-icon .icon {
+          width: 25px; }
+    #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-description {
+      padding: 35px 25px;
+      width: 43%; }
+      #pricing .pricing-overlay .pricing-contents .pricing-each-parent .pricing-each-row .pricing-description h3 {
+        font-size: 17px; }
+    #pricing .pricing-overlay .pricing-side-text {
+      margin: 70px 40px 0 40px; }
+      #pricing .pricing-overlay .pricing-side-text::after {
+        display: none; }
+      #pricing .pricing-overlay .pricing-side-text .side-text-header h2 {
+        font-size: 18px; }
+      #pricing .pricing-overlay .pricing-side-text p {
+        padding: 12px 0px 25px 0; }
+
+  /*===============================
+  PRICING PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  SKILLS PART RESPONSIVE START
+  ================================*/
+  #skills-part .skills-overlay {
+    padding: 30px 0; }
+    #skills-part .skills-overlay .skills-container .circle-each-item .skill-titles h4 {
+      font-size: 14px; }
+
+  /*===============================
+  SKILLS PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  WORK PART RESPONSIVE START
+  ================================*/
+  #work-part .work-overlay {
+    padding: 30px 0; }
+    #work-part .work-overlay .portfolio-projects .work-category-list {
+      flex-wrap: wrap; }
+      #work-part .work-overlay .portfolio-projects .work-category-list .category-left-text {
+        flex: 100%;
+        text-align: center; }
+      #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists {
+        flex: 100%; }
+        #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists ul {
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          margin-bottom: 10px;
+          border-bottom: 1px solid #444;
+          padding-bottom: 10px;
+          border-top: 1px solid #444;
+          padding-top: 10px;
+          margin-top: 15px; }
+          #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists ul li {
+            flex: 50%; }
+            #work-part .work-overlay .portfolio-projects .work-category-list .category-filter-lists ul li:not(:last-child) {
+              border-right: 0; }
+    #work-part .work-overlay .portfolio-projects .each-portfolio .image .overlay h3 {
+      font-size: 20px; }
+    #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .text h3 {
+      font-size: 20px; }
+    #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .text .close {
+      line-height: 29px;
+      font-size: 15px;
+      width: 30px;
+      height: 30px; }
+    #work-part .work-overlay .portfolio-projects .porfolio-description-container .modal-dialog .modal-content .text ul li {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-bottom: 8px;
+      padding-left: 10px;
+      font-size: 14px; }
+
+  /*===============================
+  WORK PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  CLIENTS PART RESPONSIVE START
+  ================================*/
+  #clients-part .clients-overlay .clients-container {
+    padding: 60px 0 30px 0; }
+    #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-1, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-2, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-3, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-4, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-5, #clients-part .clients-overlay .clients-container .clients-outside-images .outside-img-div.client-6 {
+      display: none; }
+    #clients-part .clients-overlay .clients-container .clients-item .client .client-name {
+      font-size: 18px; }
+    #clients-part .clients-overlay .clients-container .clients-item .client .client-designation {
+      font-size: 13px; }
+
+  /*===============================
+  CLIENTS PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  SATISFIED CLIENTS PART RESPONSIVE START
+  ================================*/
+  #clients-satisfied .satisfied-overlay {
+    padding: 30px 0; }
+    #clients-satisfied .satisfied-overlay .each-item {
+      padding: 15px;
+      margin-bottom: 20px; }
+      #clients-satisfied .satisfied-overlay .each-item .item-content h3 {
+        font-size: 22px; }
+
+  /*===============================
+  SATISFIED CLIENTS PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  CONTACTS PART RESPONSIVE START
+  ================================*/
+  #contact-part .contact-overlay .form-section {
+    margin-bottom: 50px; }
+  #contact-part .contact-overlay .contact-container .contact-info-column .contact-info {
+    padding: 0; }
+    #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item {
+      width: 90%;
+      padding: 20px 10px; }
+      #contact-part .contact-overlay .contact-container .contact-info-column .contact-info .each-info-item p {
+        font-size: 14px;
+        line-height: 21px; }
+
+  /*===============================
+  CONTACT PART RESPONSIVE ENDS
+  ================================*/
+  /*===============================
+  BLOG PART RESPONSIVE START
+  ================================*/
+  #blog .blog-overlay .blog-container .blog-item .details .title a {
+    font-size: 17px; }
+  #blog .blog-overlay .blog-container .blog-item .details .date {
+    font-size: 11px; }
+  #blog .blog-overlay .blog-container .btn-set-stylize {
+    margin-top: 10px; }
+
+  /*===============================
+  BLOG PART RESPONSIVE ENDS
+  ================================*/
+  /*============================================
+  >>>>>>>>>BLOG PAGE RESPONSIVE START<<<<<<<<<<<
+  ==============================================*/
+  .header-bloging .baner-text-container {
+    padding: 0 15px;
+    width: 90%; }
+    .header-bloging .baner-text-container .blog-title h3 {
+      line-height: 30px;
+      margin-bottom: 20px;
+      font-size: 20px; }
+    .header-bloging .baner-text-container .blog-meta span {
+      font-size: 12px;
+      margin-left: 15px; }
+
+  #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-short-info ul li {
+    font-size: 13px;
+    line-height: 26px; }
+  #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-description p {
+    font-size: 14px;
+    line-height: 26px; }
+  #blog-page .blog-page-left-side .blog-page-blogSection-wrapper .blog-description .multiple-image .img-each {
+    margin: 15px 0; }
+  #blog-page .blog-page-left-side .blog-reletedpost-wrapper .related-post-wrapper .related-post .related-text a h4 {
+    font-size: 15px;
+    line-height: 21px; }
+  #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-text .commenter-title {
+    font-size: 17px; }
+  #blog-page .blog-page-left-side .blog-commentsBox-wrapper .comments-wrapper .comments-each .comment-text .date {
+    display: block;
+    position: static;
+    width: 100%;
+    font-size: 11px; }
+  #blog-page .blog-page-left-side .BlogLeft-Boxheader h3 {
+    font-size: 21px; }
+  #blog-page .blog-page-right-side .side-each-section {
+    margin: 30px 0; }
+  #blog-page .blog-page-right-side ul li a {
+    font-size: 14px;
+    margin-bottom: 35px;
+    line-height: 26px; }
+
+  /*============================================
+  >>>>>>>>>BLOG PAGE RESPONSIVE ENDS<<<<<<<<<<<
+  ==============================================*/
+  /*===============================
+   FOOTER PART RESPONSIVE START
+  ================================*/
+  footer {
+    margin: 25px 0 0 0;
+    padding: 30px 0; }
+    footer .each-item:not(:last-child) {
+      border-right: none; }
+    footer .footer-header h2 {
+      font-size: 42px; }
+    footer .author-descrive h5 {
+      font-size: 15px; }
+    footer .author-descrive ul li {
+      font-size: 14px; }
+    footer .title-footer {
+      font-size: 15px; }
+    footer .author-contact .author-links ul li {
+      margin-bottom: 10px; }
+      footer .author-contact .author-links ul li a span {
+        font-size: 14px; }
+
+  .copyright p {
+    font-size: 13px; }
+
+  .popup-UpDown {
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 0 0 0 3px #353535, 0 0 0 0px #3e3e3e, inset 0 0 14px black, 0 0px 5px rgba(0, 0, 0, 0.5), inset 0 0 11px rgba(0, 0, 0, 0.2); }
+
+  /*===============================
+   FOOTER PART RESPONSIVE ENDS
+  ================================*/ }
+
+/*# sourceMappingURL=responsive.css.map */
